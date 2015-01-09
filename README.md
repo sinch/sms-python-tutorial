@@ -1,6 +1,6 @@
 #Sending SMS with Python
 
-In this tutorial, you will use the python module SinchSMS to [send an SMS message with Sinch](https://www.sinch.com/products/messaging/sms/ "SMS"). With SMS you can build anything from simple notification service to [two factor authentication](https://www.sinch.com/features/sms-features/two-factor-authentication/ "Two Factor Authentication") solutions.
+In this tutorial, you will use the python module SinchSMS to [send an SMS message with Sinch](https://www.sinch.com/products/messaging/sms/ "SMS"). With the Sinch SMS API, you can build anything from a simple notification service to [two factor authentication](https://www.sinch.com/features/sms-features/two-factor-authentication/ "Two Factor Authentication") solutions.
 
 For SMS pricing by destination, visit our [pricing pages](https://www.sinch.com/pricing/sms-prices/ "SMS Prices").
 
@@ -13,7 +13,7 @@ In your developer dashboard, click Apps in the left menu
 4.  Take note of your app key and secret, you will need them in a few minutes
 5.  Install the module using `pip install sinchsms`
 
-## Sending an SMS
+## Sending an SMS via the API
 
 Launch the interactive console by typing `python` in your command line and type the below:
 
@@ -42,7 +42,7 @@ If you don't want to use a module you can find the source code for the module on
 
 ### Whats next?
 
-In the coming months we will start supporting incoming SMS and have a packaged solution for verifying phone numbers through SMS and calling. Stay tuned.
+In the coming months we will start supporting incoming SMS and have a packaged solution for verifying phone numbers through SMS and calling. Stay tuned.
 
 Happy SMSing
 
