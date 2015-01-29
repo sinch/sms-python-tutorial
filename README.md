@@ -1,6 +1,6 @@
 #Sending SMS with Python
 
-In this tutorial, you will use the python module SinchSMS to [send an SMS message with Sinch](https://www.sinch.com/products/sms/ "SMS"). With the Sinch SMS API, you can build anything from a simple notification service to [two factor authentication](https://www.sinch.com/features/sms-features/two-factor-authentication/ "Two Factor Authentication") solutions.
+In this tutorial, you will use the python module SinchSMS to [send an SMS message with Sinch](https://www.sinch.com/products/sms-api/ "SMS"). With the Sinch SMS API, you can build anything from a simple notification service to [two factor authentication](https://www.sinch.com/features/sms-features/two-factor-authentication/ "Two Factor Authentication") solutions.
 
 For SMS pricing by destination, visit our [pricing pages](https://www.sinch.com/pricing/sms-prices/ "SMS Prices").
 
