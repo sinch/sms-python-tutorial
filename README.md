@@ -48,7 +48,7 @@ In the coming months we will start supporting incoming SMS and have a packaged s
 
 We have also turned this tutorial into a quick video walkthrough. Click on the image to watch the tutorial.
 
-[![Sending SMS with Python](https://www.sinch.com/wp-content/uploads/2015/03/python.png)](https://www.youtube.com/watch?v=yaIdB-DBL6A)
+[![Sending SMS with Python](images/python.png)](https://www.youtube.com/watch?v=yaIdB-DBL6A)
 
 Happy SMSing
 
