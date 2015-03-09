@@ -44,6 +44,12 @@ If you don't want to use a module you can find the source code for the module on
 
 In the coming months we will start supporting incoming SMS and have a packaged solution for verifying phone numbers through SMS and calling. Stay tuned.
 
+### Video
+
+We have also turned this tutorial into a quick video walkthrough. Click on the image to watch the tutorial.
+
+[![Sending SMS with Python](https://www.sinch.com/wp-content/uploads/2015/03/python.png)](https://www.youtube.com/watch?v=yaIdB-DBL6A)
+
 Happy SMSing
 
 [Christian](https://www.sinch.com/author/christian/)
