@@ -1,17 +1,17 @@
-#Sending SMS with Python
+#Sending SMS With Python
 
-In this tutorial, you will use the python module SinchSMS to [send an SMS message with Sinch](https://www.sinch.com/products/sms-api/ "SMS"). With the Sinch SMS API, you can build anything from a simple notification service to [two factor authentication](https://www.sinch.com/features/sms-features/two-factor-authentication/ "Two Factor Authentication") solutions.
+In this tutorial, you will use the Python module SinchSMS to [send an SMS message with Sinch](https://www.sinch.com/products/sms-api/ "SMS"). With the Sinch SMS API, you can build anything from a simple notification service to [two-factor authentication](https://www.sinch.com/features/sms-features/two-factor-authentication/ "Two Factor Authentication") solutions.
 
 For SMS pricing by destination, visit our [pricing pages](https://www.sinch.com/pricing/sms-prices/ "SMS Prices").
 
-## Set up
+## Setup
 
-1.  Create a Sinch developer account at [sinch.com/signup](#signup)
-In your developer dashboard, click Apps in the left menu
-2.  Click create new app
-3.  Name your app, and click create
-4.  Take note of your app key and secret, you will need them in a few minutes
-5.  Install the module using `pip install sinchsms`
+1.  Create a [Sinch developer account](www.sinch.com/signup)
+2.  In your developer dashboard, click “Apps” in the left-hand menu
+3.  Click “Create new app”
+4.  Name your app and click “Create”
+5.  Take note of your app key and secret, you will need them in a few minutes
+6.  Install the module using `pip install sinchsms`
 
 ## Sending an SMS via the API
 
@@ -38,18 +38,18 @@ response = client.check_status(message_id)
 print(response['Status'])
 ````
 
-If you don't want to use a module you can find the source code for the module on GitHub: [https://github.com/sinch/python-sinch-sms](https://github.com/sinch/python-sinch-sms)
+If you don't want to use a module, you can find the source code for the module on GitHub: [https://github.com/sinch/python-sinch-sms](https://github.com/sinch/python-sinch-sms)
 
-### Whats next?
+### What's next?
 
-In the coming months we will start supporting incoming SMS and have a packaged solution for verifying phone numbers through SMS and calling. Stay tuned.
+In the coming months, we will start supporting incoming SMS and have a packaged solution for verifying phone numbers through SMS and calling. Stay tuned.
 
 ### Video
 
-We have also turned this tutorial into a quick video walkthrough. Click on the image to watch the tutorial.
+We have also turned this tutorial into a quick video walkthrough. Click on the image below to watch the tutorial.
 
 [![Sending SMS with Python](images/python.png)](https://www.youtube.com/watch?v=yaIdB-DBL6A)
 
-Happy SMSing
+Happy SMSing!
 
-[Christian](https://www.sinch.com/author/christian/)
+-[Christian](https://www.sinch.com/author/christian/)
