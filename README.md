@@ -4,7 +4,7 @@ In this tutorial, you will use the Python module SinchSMS to [send an SMS messag
 
 ##Video
 
-We've made a quick video to show you how to get started with this tutorial.
+We have also turned this tutorial into a quick video walkthrough. Click on the image below to watch the tutorial.
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=dE-xyeBNAvs" target="_blank"><img src="http://img.youtube.com/vi/dE-xyeBNAvs/0.jpg" 
 alt="Send SMS in Python" width="400" height="281" border="10" /></a>
@@ -50,12 +50,6 @@ If you don't want to use a module, you can find the source code for the module o
 ### What's next?
 
 In the coming months, we will start supporting incoming SMS and have a packaged solution for verifying phone numbers through SMS and calling. Stay tuned.
-
-### Video
-
-We have also turned this tutorial into a quick video walkthrough. Click on the image below to watch the tutorial.
-
-[![Sending SMS with Python](images/python.png)](https://www.youtube.com/watch?v=dE-xyeBNAvs)
 
 Happy SMSing!
 
