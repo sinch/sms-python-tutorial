@@ -7,7 +7,7 @@ In this tutorial, you will use the Python module SinchSMS to [send an SMS messag
 We've made a quick video to show you how to get started with this tutorial.
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=dE-xyeBNAvs" target="_blank"><img src="http://img.youtube.com/vi/dE-xyeBNAvs/0.jpg" 
-alt="Send SMS in Python" width="500" height="281" border="10" /></a>
+alt="Send SMS in Python" width="400" height="281" border="10" /></a>
 
 For SMS pricing by destination, visit our [pricing pages](https://www.sinch.com/pricing/sms-prices/ "SMS Prices").
 
