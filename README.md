@@ -35,14 +35,14 @@ client = SinchSMS(your_app_key, your_app_secret)
 
 print("Sending '%s' to %s" % (message, number))
 response = client.send_message(number, message)
-message_id = response['MessageId']
+message_id = response['messageId']
 
 response = client.check_status(message_id)
-while response['Status'] != 'Successful':
-print(response['Status'])
+while response['status'] != 'Successful':
+print(response['status'])
 time.sleep(1)
 response = client.check_status(message_id)
-print(response['Status'])
+print(response['status'])
 ````
 
 If you don't want to use a module, you can find the source code for the module on GitHub: [https://github.com/sinch/python-sinch-sms](https://github.com/sinch/python-sinch-sms)
