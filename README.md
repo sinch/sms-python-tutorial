@@ -39,8 +39,8 @@ message_id = response['messageId']
 
 response = client.check_status(message_id)
 while response['status'] != 'Successful':
-print(response['status'])
-time.sleep(1)
+    print(response['status'])
+    time.sleep(1)
 response = client.check_status(message_id)
 print(response['status'])
 ```
