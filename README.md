@@ -25,24 +25,24 @@ For SMS pricing by destination, visit our [pricing pages](https://www.sinch.com/
 Launch the interactive console by typing `python` in your command line and type the below:
 
 ```Python
-  import time
-  from sinchsms import SinchSMS
+import time
+from sinchsms import SinchSMS
 
-  number = '+yourmobilenumber'
-  message = 'I love SMS!'
+number = '+yourmobilenumber'
+message = 'I love SMS!'
 
-  client = SinchSMS(your_app_key, your_app_secret)
+client = SinchSMS(your_app_key, your_app_secret)
 
-  print("Sending '%s' to %s" % (message, number))
-  response = client.send_message(number, message)
-  message_id = response['messageId']
+print("Sending '%s' to %s" % (message, number))
+response = client.send_message(number, message)
+message_id = response['messageId']
 
-  response = client.check_status(message_id)
-  while response['status'] != 'Successful':
-      print(response['status'])
-      time.sleep(1)
-      response = client.check_status(message_id)
-      print(response['status'])
+response = client.check_status(message_id)
+while response['status'] != 'Successful':
+    print(response['status'])
+    time.sleep(1)
+    response = client.check_status(message_id)
+    print(response['status'])
 ```
 
 If you don't want to use a module, you can find the source code for the module on GitHub: [https://github.com/sinch/python-sinch-sms](https://github.com/sinch/python-sinch-sms)
