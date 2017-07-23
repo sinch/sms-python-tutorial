@@ -39,10 +39,10 @@ Launch the interactive console by typing `python` in your command line and type 
 
   response = client.check_status(message_id)
   while response['status'] != 'Successful':
-  print(response['status'])
-  time.sleep(1)
-  response = client.check_status(message_id)
-  print(response['status'])
+      print(response['status'])
+      time.sleep(1)
+      response = client.check_status(message_id)
+      print(response['status'])
 ```
 
 If you don't want to use a module, you can find the source code for the module on GitHub: [https://github.com/sinch/python-sinch-sms](https://github.com/sinch/python-sinch-sms)
