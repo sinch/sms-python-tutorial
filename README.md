@@ -1,8 +1,8 @@
-#Sending SMS With Python
+# Sending SMS With Python
 
 In this tutorial, you will use the Python module SinchSMS to [send an SMS message with Sinch](https://www.sinch.com/products/sms-api/ "SMS"). With the Sinch SMS API, you can build anything from a simple notification service to [two-factor authentication](https://www.sinch.com/features/sms-features/two-factor-authentication/ "Two Factor Authentication") solutions.
 
-##Video
+## Video
 
 We have also turned this tutorial into a quick video walkthrough. Click on the image below to watch the tutorial.
 
@@ -24,7 +24,7 @@ For SMS pricing by destination, visit our [pricing pages](https://www.sinch.com/
 
 Launch the interactive console by typing `python` in your command line and type the below:
 
-````
+```Python
 import time
 from sinchsms import SinchSMS
 
@@ -39,11 +39,11 @@ message_id = response['messageId']
 
 response = client.check_status(message_id)
 while response['status'] != 'Successful':
-print(response['status'])
-time.sleep(1)
-response = client.check_status(message_id)
-print(response['status'])
-````
+    print(response['status'])
+    time.sleep(1)
+    response = client.check_status(message_id)
+    print(response['status'])
+```
 
 If you don't want to use a module, you can find the source code for the module on GitHub: [https://github.com/sinch/python-sinch-sms](https://github.com/sinch/python-sinch-sms)
 
@@ -51,6 +51,8 @@ If you don't want to use a module, you can find the source code for the module o
 
 In the coming months, we will start supporting incoming SMS and have a packaged solution for verifying phone numbers through SMS and calling. Stay tuned.
 
-Happy SMSing!
+### Happy SMSing!
 
--[Christian](https://www.sinch.com/author/christian/)
+* [Christian](https://www.sinch.com/author/christian/)
+
+* [pBouillon](https://github.com/pBouillon)
